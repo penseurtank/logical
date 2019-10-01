@@ -19,12 +19,13 @@
 // }
 // console.log(abc());
 
-function abc(){
-    var x=2,y=1, sum;
-    function xyz(){
-        sum = x + y;
-    }
-     xyz();
-     return sum;
-}
-console.log(abc());
+// function abc(){
+//     var x=2,y=1, sum;
+//     function xyz(){
+//         sum = x + y;
+//     }
+//      xyz();
+//      return sum;
+// }
+// console.log(abc());
+//==============================================================

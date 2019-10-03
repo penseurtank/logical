@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>For In</title>
+</head>
+<body>
+    <p>Using "For In" in JSON</p>
+    <script>
+    var data = {
+        name: "ravi",
+        age: 25,
+        gender: "male",
+        location: "hyd"
+    };
+    for(var temp in data){
+        //console.log(temp);
+        console.log("key is " + temp);
+        console.log("value is " + data[temp]);
+    }
+    </script>
+</body>
+</html>
